@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            background: url("https://media.istockphoto.com/id/533998713/pl/zdj%C4%99cie/empire-state-budynku-w-nocy.jpg?s=2048x2048&w=is&k=20&c=tHG09zqr1lWVi_nl4EcyMbc_pt2BZh4YkTwv2SlCt0Q=") no-repeat center center fixed;
+            background-size: cover;
+        }
+
+
+        .container{
+            margin: 60px auto;
+            padding: 30px;
+            width: 400px;
+            height: 150px;
+            background: black;
+            color: silver;
+
+
+        }
+        .buisness-card img{
+            float: left;
+            border: 5px solid silver;
+        }
+
+        .username,.email,.download-cv{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        .username span{
+            border-bottom: silver 2px solid;
+        }
+        .email span{
+            font-size: 16px;
+            border-bottom: silver 2px solid;
+        }
+        .download-cv a{
+            color: silver;
+            text-decoration: none;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="buisness-card">
+            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="avatar">
+            <p class="username">
+                <span> Jan Kowalski </span>
+            </p>
+            <p class ="email">
+                <span>jkowalsky@example.com</span>
+            </p>
+            <p class="download-cv">
+            <a href="#">Pobierz CV</a>
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
