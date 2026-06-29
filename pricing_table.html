@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pricing Table</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            background-color: black;
+        }
+        .offer{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+        }
+
+        .plan{
+            padding: 2.5rem;
+            margin: 12px;
+            background-color: #252626;
+            color: silver;
+            border-radius: 8px;
+            text-align: center;
+            overflow: hidden;
+        }
+        .plan h2 {
+            margin-bottom: 10px;
+            font-size: 1.3rem;
+        }
+
+        .plan .price{
+            margin-bottom: 1rem;
+            font-size:1.7rem;
+
+        }
+        .plan ul.details{
+            list-style-type: none;
+            text-align: left;
+        }
+        .plan ul.details li {
+            margin: 8px;
+        }
+
+        .plan li .fa-check{
+            color: greenyellow;
+            margin-right: 4px;
+        }
+        .plan li .fa-times{
+            color: red;
+            margin-right: 4px;
+        }
+
+        .plan a{
+            display: block;
+            margin-top: 1.5rem;
+            padding: 11px 32px;
+            color: white;
+            background-color: #3e672d;
+            border-radius: 8px;
+            font-size: 1.1rem;
+        }
+
+        .plan.top{
+            border: 4px solid #64ab0c;
+        }
+        .listing-badges{
+            position: relative;
+        }
+        .plan.top span{
+            padding: 4px;
+            position: absolute;
+            left: -74px;
+            top:-20px;
+            width: 130px;
+            transform: rotate(-45deg);
+            background-color: #6ab04c;
+            color: white;
+            font-size: 1.1rem;
+        }
+
+       
+     </style>
+
+</head>
+<body>
+
+    <body class="offer">
+        <div class="plan">
+            <h2>Basic</h2>
+            <div class="price">5$ /MO</div>
+            <ul class="details">
+                <li><i class="fa-solid fa-check"></i>3 Website</li>
+                <li><i class="fa-solid fa-check"></i>1 User</li>
+                <li><i class="fa-solid fa-check"></i>1 email account</li>
+                <li><i class="fa-solid fa-check"></i>300 MB disc space </li>
+                <li><i class="fa-solid fa-check"></i>1x 100 SQL DB</li>
+                <li><i class="fa-solid fa-check"></i>2GB Bandwidth</li>
+                <li><i class="fa-solid fa-times"></i>No priority support</li>
+
+
+
+            </ul>
+            <a href="#">Subscribe</a>
+         </div>
+        <div class="plan">
+        <h2>Standard</h2>
+        <div class="price">15$ /MO</div>
+        <ul class="details">
+            <li><i class="fa-solid fa-check"></i>15 Website</li>
+            <li><i class="fa-solid fa-check"></i>10 Users</li>
+            <li><i class="fa-solid fa-check"></i>10 email account</li>
+            <li><i class="fa-solid fa-check"></i>32 GB SSD </li>
+            <li><i class="fa-solid fa-check"></i>3x 300SQL DB</li>
+            <li><i class="fa-solid fa-check"></i>200GB Bandwidth</li>
+            <li><i class="fa-solid fa-check"></i> Priority support</li>
+        </ul>
+        <a href="#">Subscribe</a>
+        </div>
+
+
+        <div class="plan top">
+            <div class="listing-badges">
+                <span>Popular</span>
+            </div>
+        <div class="price">66 $/MO </div>
+    <h2>Premium</h2>
+    <ul class="details">
+        <li><i class="fa-solid fa-check"></i>Unlimited Websites</li>
+        <li><i class="fa-solid fa-check"></i>Unlimited Users</li>
+        <li><i class="fa-solid fa-check"></i>1 email account</li>
+        <li><i class="fa-solid fa-check"></i>300 GB SSD </li>
+        <li><i class="fa-solid fa-check"></i>3x 1000 SQL DB</li>
+        <li><i class="fa-solid fa-check"></i>2000GB Bandwidth</li>
+        <li><i class="fa-solid fa-check"></i> VIP praiority support</li>
+
+
+
+    </ul>
+    <a href="#">Subscribe</a>
+    </div>
+
+
+</body>
+
+</html>
